@@ -32,6 +32,15 @@ A interface [`IDocumentComponent`](./TreeTest/Domain/Interfaces/IDocumentCompone
 
 O teste foi desenvolvido em C# (dotnet 8) e abrange os princípios SOLID, Clean Code, Clean Architecture e o padrão de projeto Visitor que foi escolhido para monitorar a árvore.
 
+### Estrutura do projeto
+
+O projeto está organizado segundo os princípios da Clean Architecture, com as seguintes camadas:
+
+- **Domain**: Contém as entidades e interfaces relacionadas à árvore e ao monitoramento.
+- **Application**: _Camada não implementada neste teste_, mas geralmente conteria casos de uso e lógica de aplicação.
+- **Infrastructure**: Contém implementações específicas, como o monitoramento.
+- **Presentation**: Contém a interface de usuário, que neste caso é um console simples.
+
 O código possui comentários (summaries) que explicam as partes mais importantes.
 
 ## Execução
