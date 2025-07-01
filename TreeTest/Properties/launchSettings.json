@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TreeTest": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
