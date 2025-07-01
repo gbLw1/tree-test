@@ -4,7 +4,7 @@ namespace TreeTest.Domain.Entities;
 
 public class Leaf(string text) : IDocumentComponent
 {
-    public string Text { get; } = text;
+    private string Text { get; } = text;
 
     public void Print()
     {
