@@ -2,6 +2,10 @@
 
 ## Sobre o teste
 
+Implemente um _document assembler_ simples com as seguintes características:
+
+![tree](./docs/tree.png)
+
 1. Cada documento representará uma estrutura de árvore (figura acima) onde
    as folhas terão um campo de texto que poderão ser printados na execução.
 
